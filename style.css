@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding:0;
+}
+body, html {
+    height: 100%;
+}
+  
+.bg {
+    position: relative;
+    background-image: url("1.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+  }
+  label {
+    font-family: "Raleway", sans-serif;
+    font-size: 11pt;
+  }
+  #forgot-pass {
+    color: #2dbd6e;
+    font-family: "Raleway", sans-serif;
+    font-size: 10pt;
+    margin-top: 3px;
+    text-align: right;
+  }
+  #card {
+    position: absolute;
+    top:25px;
+    right: 274px;
+    background: #fbfbfb;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 410px;
+    margin: 6rem auto 8.1rem auto;
+    width: 412px;
+  }
+  #card-content {
+    padding: 12px 44px;
+  }
+  #card-title {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Raleway Thin", sans-serif;
+    letter-spacing: 4px;
+    padding-bottom: 23px;
+    padding-top: 13px;
+    text-align: center;
+  }
+
+  .letter-spacing {
+    letter-spacing: 1px;
+  }
+  #signup {
+    color: #2dbd6e;
+    font-family: "Raleway", sans-serif;
+    font-size: 10pt;
+    margin-top: 16px;
+    text-align: center;
+  }
+  #submit-btn {
+    background-color: #2b656a;
+    border: none;
+    box-shadow: 0px 1px 8px #24c64f;
+    cursor: pointer;
+    color: white;
+    font-family: "Raleway SemiBold", sans-serif;
+    height: 42.3px;
+    margin: 0 auto;
+    margin-top: 50px;
+    transition: 0.25s;
+    width: 329px;
+  }
+  #submit-btn:hover {
+    box-shadow: 0px 1px 18px #24c64f;
+  }
+
+  .m-AUTO {
+    margin: auto;
+    text-align: center;
+  }
+
+ .form {
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+  }
+  .form-border {
+    background: black;
+    height: 1px;
+    width: 100%;
+  }
+  .form-content {
+    background: #fbfbfb;
+    border: none;
+    outline: none;
+    padding-top: 14px;
+  }
+  
+  .box {
+    position: absolute;
+    background-color: #feb933;
+    height: 52px;
+    width: 280px;
+    top: 579px;
+    right: 338px;
+  }
+
+  .white {
+    color: white;
+  }
+
+  #gray {
+    color: lightgrey;
+  }
+
+  #orange {
+    color: orange;
+  }
